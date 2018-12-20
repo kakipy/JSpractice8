@@ -1,0 +1,39 @@
+body{
+    font-family: 'Courier New', sans-serif;
+    font-size: 14px;
+    background-color: #eee;
+}
+.container{
+    margin: 20px auto;
+    width: 365px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+
+}
+#timer{
+    background-color: #ddd;
+    height: 120px;
+    line-height: 120px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.controls > div{
+    cursor: pointer;
+    user-select: none;
+    width: 80px;
+    background-color: #ddd;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+}
+.controls > div:hover{
+    opacity: 0.7;
+}
+.controls{
+    overflow: hidden;
+
+}
+.controls > div + div{
+    margin-left: 15px;
+}
